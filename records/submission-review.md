@@ -26,14 +26,14 @@ The [three regression cases](test-record.md) passed with archived responses. For
 
 ## 3. Record the team's decision
 
-Participation for all five members is recorded. The following decision is proposed for confirmation:
+Participation for all five members is recorded. The team decision was reported as approved on November 17, 2026:
 
 > Retain `lab09-landscape-v1.0.0-rc1` for Lab 09. For the primary case, recommend a 12-week benchmark and facilities assessment. Reopen bid review only after a candidate beats the strongest feasible baseline on cost per accepted answer at agreed quality and p95 latency and fits measured power and cooling headroom. For the contrast, retain a capped on-demand trial. Preserve uncertainty about real workload economics and current terms.
 
-Record the approval date, approvers, accepted commit, dissent and any changes in the [Team Agent Record](team-agent-record.md). Team approval remains pending. The report's illustrative alternative is to defer accelerator testing until conventional search demand is measured.
+The [Team Agent Record](team-agent-record.md) records the approval date and approved commit. Individual votes and dissent were not supplied. The report's illustrative alternative is to defer accelerator testing until conventional search demand is measured.
 
 ## 4. Confirm the handoff and submit
 
 The [integration audit](integration-audit.md) supports beginning Lab 10 design. Carry forward Lab 3 acceptance, version-to-test identity for Labs 4 and 5, and targeted Lab 8 readiness retests. Confirm who will own each issue during integration.
 
-After team approval, pin the approved commit in the Team Agent Record. The designated member should submit the approved package through Brightspace under the course instructions. Submission remains pending.
+The approved commit is pinned in the Team Agent Record. The designated member should submit the approved package through Brightspace under the course instructions. Submission remains pending.
