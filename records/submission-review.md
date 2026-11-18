@@ -22,7 +22,7 @@ Score each pair against the same observable criteria. Record a quote or output f
 
 ## 2. Verify the final synthesis
 
-The [three regression cases](test-record.md) passed with archived responses. For fresh behavior evidence, run the three archived final-agent prompts in separate ChatGPT conversations and save the raw outputs. Review the primary and contrast with the criteria above. The vendor-only response should identify missing corroboration, withhold commitment and request matched workload measurements and current terms.
+See the [test record](test-record.md). All three user-supplied final-agent responses passed strict schema and metadata checks. The primary partially met the approved bid-review trigger, the contrast met the main criteria with a less explicit cost and spend gate, and vendor-only passed the abstention check. Model and session metadata were not supplied. The five-candidate fresh comparison remains open.
 
 ## 3. Record the team's decision
 
