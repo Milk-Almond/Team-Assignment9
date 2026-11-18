@@ -1,0 +1,71 @@
+{
+  "agent": {
+    "name": "Team Emerging Technology Landscape Agent",
+    "specialty": "Current landscape intelligence, alternatives, dependencies and monitoring",
+    "version": "lab09-landscape-v1.0.0-rc1"
+  },
+  "analytical_question": "Which rented accelerator access strategy should the startup test for bursty vision workloads?",
+  "general_et_finding": "As of 2026-11-17, data-center GPUs are an established accelerator class with competing GPU ecosystems and rented ASIC substitutes. Compute, runtime compatibility, memory, networking and site power jointly shape deployment. MLPerf provides scenario-specific benchmark evidence, and reported supplier revenue signals investment and demand. Workload-specific cost, regional availability, sustained deployment for these applications, and applicable formal interoperability or regulatory requirements remain unverified.",
+  "application_finding": "Start with existing CPU preprocessing and a small rented GPU as the baseline for feasible workloads. Benchmark on-demand GPU sizes, then screen a rented ASIC for one portable model. Compare time to an accepted training run, p95 inference latency, model quality and cost per accepted image, including migration and egress.",
+  "organization_specific_finding": "The startup has cloud skills, variable demand and no data-center operator. Use reversible on-demand capacity in approved U.S. regions with versioned containers, spending caps and a fallback GPU. Keep contractual image handling controls and avoid supporting two production stacks during the evaluation.",
+  "evidence": [
+    {
+      "claim": "Published MLPerf v6.1 offers scenario-specific comparison across submitted designs.",
+      "source_or_reference": "https://mlcommons.org/2026/09/mlperf-inference-v6-1-results/",
+      "date_or_recency": "2026-09-16",
+      "evidence_type": "Multi-vendor industry benchmark",
+      "notes": "Compare matching model, scenario, quality target, software and system scale. Submissions do not establish the local winner."
+    },
+    {
+      "claim": "AMD documents MI350X as a competing GPU option.",
+      "source_or_reference": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html",
+      "date_or_recency": "2025-06-12 launch; checked 2026-11-17",
+      "evidence_type": "Vendor specifications",
+      "notes": "Hardware specifications leave software, availability and workload results open."
+    },
+    {
+      "claim": "AWS announced rentable Trainium2 and claimed 30–40% better price-performance against EC2 P5e/P5en.",
+      "source_or_reference": "https://aws.amazon.com/blogs/aws/amazon-ec2-trn2-instances-and-trn2-ultraservers-for-aiml-training-and-inference-are-now-available/",
+      "date_or_recency": "2024-12-03; checked 2026-11-17",
+      "evidence_type": "Vendor launch and marketing",
+      "notes": "Dated comparator-specific claim, excluded from local cost estimates."
+    },
+    {
+      "claim": "National-laboratory energy analysis supports including full-system power and cooling.",
+      "source_or_reference": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update",
+      "date_or_recency": "2025 update; checked 2026-11-17",
+      "evidence_type": "National-laboratory analysis",
+      "notes": "Site capacity still requires local measurements."
+    },
+    {
+      "claim": "NVIDIA reported Data Center revenue growth for its fiscal second quarter.",
+      "source_or_reference": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/",
+      "date_or_recency": "2026-08-26; period ended 2026-07-26",
+      "evidence_type": "Issuer disclosure",
+      "notes": "Directional ecosystem demand signal; shipment counts and local adoption are unknown."
+    },
+    {
+      "claim": "Bursty demand, limited capital and approved cloud locations come from the case.",
+      "source_or_reference": "cases/contrast_1.json",
+      "date_or_recency": "2026-11-17",
+      "evidence_type": "Classroom intake",
+      "notes": "Confirm quotas, actual spend and security terms before use."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The dated AWS 30–40% comparison applies to its stated EC2 comparators. Exclude it from forecasts until a matched workload and current commercial terms reproduce an advantage.",
+    "Pricing, usable quotas and porting effort have not been measured."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the access strategy and low confidence in vendor choice or savings.",
+  "value_opportunity_implication": "Rental capacity can support iteration while keeping fixed infrastructure commitments small.",
+  "risk_governance_implication": "Cloud operations enforces spend caps and approved image handling. Founders authorize any term commitment.",
+  "recommendation_management_implication": "Run a capped on-demand trial for the six-month horizon, starting with a representative vision workload. Port one candidate only after compatibility and cost screening.",
+  "change_monitoring_triggers": [
+    "ML lead, after each two-week comparison: advance the alternative only if it lowers cost per accepted image at agreed model quality and latency after charging migration effort and still meets the training deadline.",
+    "Cloud operations, weekly: switch to fallback capacity if quota or wait time prevents the sprint target, and stop tests that would exceed the approved spend cap.",
+    "Product and finance, quarterly: reassess reservations only after stable measured utilization and acceptable exit terms."
+  ],
+  "abstention_or_more_information_needed": [
+    "Representative models, agreed quality/latency gates, actual billing and regional quota, measured porting effort."
+  ]
+}

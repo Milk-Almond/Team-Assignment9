@@ -1,0 +1,71 @@
+{
+  "agent": {
+    "name": "Team Emerging Technology Landscape Agent",
+    "specialty": "Current landscape intelligence, alternatives, dependencies and monitoring",
+    "version": "lab09-landscape-v1.0.0-rc1"
+  },
+  "analytical_question": "Which compute options should the company benchmark before considering ownership for internal RAG?",
+  "general_et_finding": "As of 2026-11-17, data-center GPUs are an established accelerator class with competing GPU ecosystems and rented ASIC substitutes. Compute, runtime compatibility, memory, networking and site power jointly shape deployment. MLPerf provides scenario-specific benchmark evidence, and reported supplier revenue signals investment and demand. Workload-specific cost, regional availability, sustained deployment for these applications, and applicable formal interoperability or regulatory requirements remain unverified.",
+  "application_finding": "Compare current internal search and manual review against a CPU or modest local accelerator RAG baseline, then against an on-premises CUDA system. Include a ROCm option only after model and runtime compatibility checks. Compare ground-truth acceptance, p95 latency at representative concurrency, and total cost per accepted answer. Storage, retrieval, evaluation and access controls are complements.",
+  "organization_specific_finding": "Limited power and no production liquid cooling make facilities headroom a hard filter. Existing CUDA skills reduce pilot setup effort. Restrict cloud comparisons to permitted synthetic or redacted inputs unless security approves adequate terms and controls for proprietary data.",
+  "evidence": [
+    {
+      "claim": "Published MLPerf v6.1 offers scenario-specific comparison across submitted designs.",
+      "source_or_reference": "https://mlcommons.org/2026/09/mlperf-inference-v6-1-results/",
+      "date_or_recency": "2026-09-16",
+      "evidence_type": "Multi-vendor industry benchmark",
+      "notes": "Compare matching model, scenario, quality target, software and system scale. Submissions do not establish the local winner."
+    },
+    {
+      "claim": "AMD documents MI350X as a competing GPU option.",
+      "source_or_reference": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html",
+      "date_or_recency": "2025-06-12 launch; checked 2026-11-17",
+      "evidence_type": "Vendor specifications",
+      "notes": "Hardware specifications leave software, availability and workload results open."
+    },
+    {
+      "claim": "AWS announced rentable Trainium2 and claimed 30–40% better price-performance against EC2 P5e/P5en.",
+      "source_or_reference": "https://aws.amazon.com/blogs/aws/amazon-ec2-trn2-instances-and-trn2-ultraservers-for-aiml-training-and-inference-are-now-available/",
+      "date_or_recency": "2024-12-03; checked 2026-11-17",
+      "evidence_type": "Vendor launch and marketing",
+      "notes": "Dated comparator-specific claim, excluded from local cost estimates."
+    },
+    {
+      "claim": "National-laboratory energy analysis supports including full-system power and cooling.",
+      "source_or_reference": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update",
+      "date_or_recency": "2025 update; checked 2026-11-17",
+      "evidence_type": "National-laboratory analysis",
+      "notes": "Site capacity still requires local measurements."
+    },
+    {
+      "claim": "NVIDIA reported Data Center revenue growth for its fiscal second quarter.",
+      "source_or_reference": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/",
+      "date_or_recency": "2026-08-26; period ended 2026-07-26",
+      "evidence_type": "Issuer disclosure",
+      "notes": "Directional ecosystem demand signal; shipment counts and local adoption are unknown."
+    },
+    {
+      "claim": "Site power, skills and review constraints are stated case assumptions.",
+      "source_or_reference": "cases/primary.json",
+      "date_or_recency": "2026-11-17",
+      "evidence_type": "Classroom intake",
+      "notes": "Confirm with site owners before execution."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The dated AWS 30–40% comparison applies to its stated EC2 comparators. Exclude it from forecasts until a matched workload and current commercial terms reproduce an advantage.",
+    "No production workload profile, full-system quote or rack capacity measurement is available."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the shortlist, low confidence in cost, throughput and viability for production.",
+  "value_opportunity_implication": "A modest local stack could meet the workload and avoid unnecessary capacity commitments.",
+  "risk_governance_implication": "Security owns data-boundary approval. Quality and research staff retain human review of consequential outputs.",
+  "recommendation_management_implication": "Authorize a 12-week controlled benchmark and facilities assessment. Keep procurement approval with management after finance, facilities and security review.",
+  "change_monitoring_triggers": [
+    "ML platform lead and facilities, at week 12: advance to a competitive bid review only if the candidate improves cost per accepted answer at agreed quality and p95 latency over the strongest feasible local baseline and fits measured power and cooling headroom.",
+    "Procurement, monthly and before bid review: reopen the shortlist if a current comparable quote, lead time or benchmark changes the expected capacity or support profile.",
+    "Security owner, when hosting terms or data policy change: review controls and written terms before allowing a hosted comparison using proprietary data."
+  ],
+  "abstention_or_more_information_needed": [
+    "Representative concurrency and ground truth, quality and latency gates, metered site demand and comparable written quotes."
+  ]
+}
