@@ -1,0 +1,85 @@
+{
+  "case_id": "nyu-humanoid-totes-v1",
+  "snapshot_date": "2026-11-17",
+  "expected_experts": 7,
+  "source_commit": "22c74bbaa573a70eb32d04f205552250a6ee1431",
+  "experts": [
+    {
+      "id": "01_creation",
+      "name": "Emerging Technology Creation Agent",
+      "version": "team-1.0.0",
+      "source_repository": "Milk-Almond/Lab3",
+      "source_commit": "42133eef1c180b4280647b70ed57f9d2ec2b2e20",
+      "source_path": "Team-Lab3-Final/agents/creation_agent",
+      "source_url": "https://github.com/Milk-Almond/Lab3/tree/42133eef1c180b4280647b70ed57f9d2ec2b2e20/Team-Lab3-Final/agents/creation_agent",
+      "metadata_path": "integration/nyu_humanoid/snapshots/01_creation/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/01_creation/specialist_instructions.md"
+    },
+    {
+      "id": "02_innovation",
+      "name": "Innovation Classification Agent",
+      "version": "lab4-team-approved-v1.0",
+      "source_repository": "Milk-Almond/Team-Assignment-4",
+      "source_commit": "699c8bc9fe3b309df4e5e6908d3ece48ba128256",
+      "source_path": "agents/innovation_classification",
+      "source_url": "https://github.com/Milk-Almond/Team-Assignment-4/tree/699c8bc9fe3b309df4e5e6908d3ece48ba128256/agents/innovation_classification",
+      "metadata_path": "integration/nyu_humanoid/snapshots/02_innovation/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/02_innovation/specialist_instructions.md"
+    },
+    {
+      "id": "03_promethean",
+      "name": "Team Promethean Classification Agent",
+      "version": "0.1.3-team",
+      "source_repository": "Milk-Almond/Team-Assignment-5",
+      "source_commit": "2f4c1910a4ef6c7d22e2fcbfee018f93aecb10ff",
+      "source_path": "agents/team_promethean",
+      "source_url": "https://github.com/Milk-Almond/Team-Assignment-5/tree/2f4c1910a4ef6c7d22e2fcbfee018f93aecb10ff/agents/team_promethean",
+      "metadata_path": "integration/nyu_humanoid/snapshots/03_promethean/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/03_promethean/specialist_instructions.md"
+    },
+    {
+      "id": "04_diffusion",
+      "name": "Emerging Technology Diffusion Agent",
+      "version": "1.0-team-synthesis",
+      "source_repository": "Milk-Almond/Team-Assignment6",
+      "source_commit": "1cb931b0bc432e06b0fe0fdb1873ada0141d648c",
+      "source_path": "agents/diffusion_agent",
+      "source_url": "https://github.com/Milk-Almond/Team-Assignment6/tree/1cb931b0bc432e06b0fe0fdb1873ada0141d648c/agents/diffusion_agent",
+      "metadata_path": "integration/nyu_humanoid/snapshots/04_diffusion/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/04_diffusion/specialist_instructions.md"
+    },
+    {
+      "id": "05_adoption",
+      "name": "Team Emerging Technology Adoption Agent",
+      "version": "1.2-team-review",
+      "source_repository": "Milk-Almond/Team-Assignment7",
+      "source_commit": "5956c905e1ce7c00ab3a34f673361d021f8dce70",
+      "source_path": "agents/adoption_agent",
+      "source_url": "https://github.com/Milk-Almond/Team-Assignment7/tree/5956c905e1ce7c00ab3a34f673361d021f8dce70/agents/adoption_agent",
+      "metadata_path": "integration/nyu_humanoid/snapshots/05_adoption/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/05_adoption/specialist_instructions.md"
+    },
+    {
+      "id": "06_organizational",
+      "name": "Organizational Adoption Agent",
+      "version": "team-subagent-6-v1.0.0",
+      "source_repository": "Milk-Almond/Team-Lab-8-Organizational-Adoption-Agent",
+      "source_commit": "129d42cc5ddcb8555f8ef128b9d60fd565b56bb7",
+      "source_path": "agents/organizational_adoption",
+      "source_url": "https://github.com/Milk-Almond/Team-Lab-8-Organizational-Adoption-Agent/tree/129d42cc5ddcb8555f8ef128b9d60fd565b56bb7/agents/organizational_adoption",
+      "metadata_path": "integration/nyu_humanoid/snapshots/06_organizational/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/06_organizational/specialist_instructions.md"
+    },
+    {
+      "id": "07_landscape",
+      "name": "Team Emerging Technology Landscape Agent",
+      "version": "lab09-landscape-v1.0.0-rc1",
+      "source_repository": "Milk-Almond/Team-Assignment9",
+      "source_commit": "22c74bbaa573a70eb32d04f205552250a6ee1431",
+      "source_path": "agents/landscape",
+      "source_url": "https://github.com/Milk-Almond/Team-Assignment9/tree/22c74bbaa573a70eb32d04f205552250a6ee1431/agents/landscape",
+      "metadata_path": "integration/nyu_humanoid/snapshots/07_landscape/agent_metadata.json",
+      "instructions_path": "integration/nyu_humanoid/snapshots/07_landscape/specialist_instructions.md"
+    }
+  ]
+}

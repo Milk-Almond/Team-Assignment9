@@ -1,0 +1,29 @@
+name: NYU seven-specialist verification harness
+
+on:
+  pull_request:
+    paths:
+      - 'integration/nyu_humanoid/**'
+      - 'core/**'
+      - '.github/workflows/nyu-moe-verification.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'integration/nyu_humanoid/**'
+      - 'core/**'
+      - '.github/workflows/nyu-moe-verification.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install strict JSON Schema validator
+        run: python -m pip install jsonschema
+      - name: Run synthetic harness regression tests
+        run: python -m unittest integration.nyu_humanoid.test_verify_moe -v
+      - name: Ensure frozen core has not changed
+        run: python tools/check_frozen_core.py

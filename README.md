@@ -32,3 +32,9 @@ To verify the saved demonstrations and frozen scaffold:
 python -m pip install -r agents/landscape/tests/requirements.txt
 python agents/landscape/tests/check.py
 ```
+
+## NYU humanoid robotics — seven-specialist verification handoff
+
+The [NYU humanoid integration evidence workflow](integration/nyu_humanoid/README.md) pins **all seven** approved expert instruction/metadata snapshots, builds a common stockroom test packet, validates independently saved raw JSON responses against the frozen schema, and provides explicit cross-expert conflict and human sign-off requirements.
+
+**Status:** verification tooling added; **seven fresh model responses and human integration adjudication are still pending**. Do not interpret the earlier standalone prose answer or the synthetic harness tests as completed MoE verification. This Lab 10 readiness aid does not revise the approved Lab 9 Landscape decision.
