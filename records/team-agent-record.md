@@ -3,7 +3,7 @@
 | Field | Record |
 |---|---|
 | Course / specialty | MASY1-GC 1800 · Team Lab 09 · SubAgent 7 |
-| Status / version | Proposed synthesis for team approval · `lab09-landscape-v1.0.0-rc1` |
+| Status / version | Team approval reported November 17, 2026 · `lab09-landscape-v1.0.0-rc1` |
 | Evidence cutoff | 2026-11-17 |
 | Governing question | Where does the technology sit among alternatives, complements and external signals, and what should management monitor next? |
 | Authority | Intelligence and bounded evaluation. Management owns funding and deployment. The security owner controls access and data transfer. |
@@ -46,4 +46,8 @@ On November 17, 2026, the requester reported that all five team members particip
 | `sawulya` | Reported by requester |
 | `yicrry777` | Reported by requester |
 
-The [candidate comparison](candidate-comparison.md) documents each candidate's contribution. Team approval of the final agent and thresholds remains open.
+The [candidate comparison](candidate-comparison.md) documents each candidate's contribution. Team approval was reported for November 17, 2026. Individual votes and numerical service thresholds were not supplied.
+
+## Team decision recorded November 17, 2026
+
+The reported approval covers `lab09-landscape-v1.0.0-rc1` at [commit 19050b5](https://github.com/Milk-Almond/Team-Assignment9/commit/19050b5882373d7cfbc2dd5025805f8da93c0558) and the proposed monitoring trigger. Retain the 12-week on-premises benchmark and facilities assessment. Reopen bid review only after a candidate beats the strongest feasible baseline on cost per accepted answer at agreed quality and p95 latency and fits measured power and cooling headroom. Retain the capped on-demand trial for the startup contrast. No dissent or changes were supplied. Fresh interactive tests and Lab 10 issues remain documented.

@@ -1,6 +1,6 @@
 # Team Lab 09 · Emerging Technology Landscape Agent
 
-**Version:** `lab09-landscape-v1.0.0-rc1` · **Status:** ready for team review. The lab's human sign-off remains open.
+**Version:** `lab09-landscape-v1.0.0-rc1` · **Status:** team approval reported November 17, 2026. See the Team Agent Record for the approved commit and trigger.
 
 The agent maps current evidence, viable alternatives, complements and dependencies. It supplies decision triggers to the final mixture-of-experts system. The case study compares a facilities-gated on-premises accelerator benchmark with a reversible cloud accelerator trial.
 

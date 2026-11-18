@@ -22,4 +22,12 @@ The saved Lab 09 outputs are model-authored walkthroughs from this Codex convers
 
 Rebuilt and archived the exact packets for [primary](../agents/landscape/tests/rerun/primary.prompt.txt), [contrast](../agents/landscape/tests/rerun/contrast_1.prompt.txt), and [vendor-only](../agents/landscape/tests/rerun/vendor_claim_only.prompt.txt). The local runner revalidated all three saved responses against both the scaffold validator and the frozen JSON schema. It also checked the frozen core, exact evidence attachment, returned agent metadata, continuity of the general finding, changed local decisions and monitoring metrics, and vendor-only abstention. All checks passed. See the [rerun log](../agents/landscape/tests/rerun/results.txt).
 
-This run replays the saved response artifacts. Fresh ChatGPT response generation and a common-case comparison across all five candidate prompts remain open.
+This run replays the saved response artifacts. The user-supplied runs are documented below. A fresh common-case comparison across all five candidate prompts remains open.
+
+## User-supplied final agent run results
+
+All three user-supplied final-agent responses passed strict schema and metadata checks. The primary partially met the approved bid-review trigger, the contrast met the main criteria with a less explicit cost and spend gate, and vendor-only passed the abstention check. Model and session metadata were not supplied. The five-candidate fresh comparison remains open.
+
+- [Primary review](../agents/landscape/tests/fresh/primary-review.md)
+- [Contrast review](../agents/landscape/tests/fresh/contrast-review.md)
+- [Vendor-only review](../agents/landscape/tests/fresh/vendor-only-review.md)

@@ -22,18 +22,18 @@ Score each pair against the same observable criteria. Record a quote or output f
 
 ## 2. Verify the final synthesis
 
-The [three regression cases](test-record.md) passed with archived responses. For fresh behavior evidence, run the three archived final-agent prompts in separate ChatGPT conversations and save the raw outputs. Review the primary and contrast with the criteria above. The vendor-only response should identify missing corroboration, withhold commitment and request matched workload measurements and current terms.
+See the [test record](test-record.md). All three user-supplied final-agent responses passed strict schema and metadata checks. The primary partially met the approved bid-review trigger, the contrast met the main criteria with a less explicit cost and spend gate, and vendor-only passed the abstention check. Model and session metadata were not supplied. The five-candidate fresh comparison remains open.
 
 ## 3. Record the team's decision
 
-Participation for all five members is recorded. The following decision is proposed for confirmation:
+Participation for all five members is recorded. The team decision was reported as approved on November 17, 2026:
 
 > Retain `lab09-landscape-v1.0.0-rc1` for Lab 09. For the primary case, recommend a 12-week benchmark and facilities assessment. Reopen bid review only after a candidate beats the strongest feasible baseline on cost per accepted answer at agreed quality and p95 latency and fits measured power and cooling headroom. For the contrast, retain a capped on-demand trial. Preserve uncertainty about real workload economics and current terms.
 
-Record the approval date, approvers, accepted commit, dissent and any changes in the [Team Agent Record](team-agent-record.md). Team approval remains pending. The report's illustrative alternative is to defer accelerator testing until conventional search demand is measured.
+The [Team Agent Record](team-agent-record.md) records the approval date and approved commit. Individual votes and dissent were not supplied. The report's illustrative alternative is to defer accelerator testing until conventional search demand is measured.
 
 ## 4. Confirm the handoff and submit
 
 The [integration audit](integration-audit.md) supports beginning Lab 10 design. Carry forward Lab 3 acceptance, version-to-test identity for Labs 4 and 5, and targeted Lab 8 readiness retests. Confirm who will own each issue during integration.
 
-After team approval, pin the approved commit in the Team Agent Record. The designated member should submit the approved package through Brightspace under the course instructions. Submission remains pending.
+The approved commit is pinned in the Team Agent Record. The designated member should submit the approved package through Brightspace under the course instructions. Submission remains pending.
