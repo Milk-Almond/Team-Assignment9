@@ -17,3 +17,9 @@ The [candidate's preserved before-and-after notes](https://github.com/sawulya/La
 A second reproduced weakness was that the frozen build command generated structurally valid prompt text without the selected evidence register. This could turn a closed-evidence comparison into an uncontrolled one. The specialist wrapper invokes the unchanged builder and appends the selected snapshot. The local retest passed for each case and confirmed the packet ends with the exact snapshot.
 
 The saved Lab 09 outputs are model-authored walkthroughs from this Codex conversation. No isolated fresh-session performance, live benchmark, deployment or reproducibility is claimed. The [local log](verification.txt) records observed structural checks and targeted assertions. Broader semantic behavior remains subject to reviewer judgment.
+
+## November 17 regression rerun
+
+Rebuilt and archived the exact packets for [primary](../agents/landscape/tests/rerun/primary.prompt.txt), [contrast](../agents/landscape/tests/rerun/contrast_1.prompt.txt), and [vendor-only](../agents/landscape/tests/rerun/vendor_claim_only.prompt.txt). The local runner revalidated all three saved responses against both the scaffold validator and the frozen JSON schema. It also checked the frozen core, exact evidence attachment, returned agent metadata, continuity of the general finding, changed local decisions and monitoring metrics, and vendor-only abstention. All checks passed. See the [rerun log](../agents/landscape/tests/rerun/results.txt).
+
+This run replays the saved response artifacts. Fresh ChatGPT response generation and a common-case comparison across all five candidate prompts remain open.
