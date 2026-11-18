@@ -33,3 +33,17 @@ The dated AWS comparison is scoped to EC2 P5e/P5en and remains vendor evidence. 
 ## AI use, verification and Lab 10 handoff
 
 Codex compared pinned candidate artifacts, checked original publishers, adapted the cases, drafted the synthesis and authored three saved model demonstrations in this conversation. Local checks covered frozen core integrity, prompt assembly and schema conformance. Human approval, workshop timing and individual verifier assignments require the team's record. The first Lab 10 question is which exact versions the orchestrator should route to when historically approved prompts and later retests differ. See the [seven-agent audit](integration-audit.md).
+
+## Workshop participation
+
+On November 17, 2026, the requester reported that all five team members participated. The candidate repository handles identify the five members for this record.
+
+| Member | Participation |
+|---|---|
+| `yanisimova` | Reported by requester |
+| `Harry-max264` | Reported by requester |
+| `mp7240-sudo` | Reported by requester |
+| `sawulya` | Reported by requester |
+| `yicrry777` | Reported by requester |
+
+The [candidate comparison](candidate-comparison.md) documents each candidate's contribution. Team approval of the final agent and thresholds remains open.
