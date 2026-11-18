@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "General-purpose humanoid mobile-manipulation robots for indoor physical work (not a named vendor or autonomous general intelligence)",
+  "intended_application": "A supervised proof of concept: transfer lightweight supply totes from a staging table to one of two low shelf positions along a fixed, single-floor staff-only stockroom route; compare with a staff cart and an appropriate wheeled mobile robot with human handoff if feasible",
+  "organization": "New York University (NYU), proposed stockroom setting — hypothetical classroom assessment, not an approved real NYU deployment",
+  "industry_sector": "Higher education; campus facilities and stockroom logistics",
+  "business_need": "Test whether flexible shelf placement in human-designed indoor spaces delivers any measurable advantage over lower-complexity movement and handling methods",
+  "users_stakeholders": "Facilities and stockroom workers, operations manager, environment/health/safety reviewer, procurement, IT/privacy, affected staff and campus leadership",
+  "adoption_posture": "Cautious evidence-led experiment only, if NYU approves the site, operator, data use and safety plan; no campus-wide rollout authorization",
+  "capabilities_constraints": "No NYU site, robot vendor, budget, policy clearance, insurance, operator staffing, equipment fit or performance data has been verified. Treat all as unknown. Trial uses a restricted indoor route with lightweight totes, a human supervisor, emergency stop, access boundary and manual fallback only if approved. Proposed controls are not evidenced as implemented.",
+  "risk_consequence_context": "Physical contact, unstable tote placement, falling loads, uncontrolled robot motion, boundary breaches, accessibility, worker safety, staff displacement concerns, camera/privacy records, incident response and unplanned supervision cost",
+  "management_question": "How could NYU use a humanoid robot; how disruptive, potentially Promethean and how far along diffusion is it; and should NYU authorize a limited stockroom feasibility comparison versus conventional and wheeled alternatives? Specify decision gates, unknowns, monitoring and evidence provenance.",
+  "time_horizon": "Decision whether to design a bounded trial now; if authorized, review performance after the approved short test; no scale decision without further evidence",
+  "additional_context": "Classroom thought experiment at evidence cutoff 2026-11-17. All NYU-specific controls, permissions and site details are hypotheses requiring institutional confirmation. The proposed trial is NOT approved. Do not derive a general adoption percentage from individual deployments. Keep Promethean significance, Rogers diffusion, innovation degree, adoption decision, organizational readiness and current landscape as separate expert judgments. Use only the attached dated evidence dossier for external factual claims, and cite its limitations."
+}
